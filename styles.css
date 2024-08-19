@@ -1,0 +1,30 @@
+.center-horizontally {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.left-lean {
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.background-image {
+    background-image: url("wa.jpeg"); /* Path to the image file */
+    background-size: cover;   /* Scales the image to cover the entire element */
+    background-position: center; /* Centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;
+}
+
+input {
+    border-radius: 100px;
+    border: none;
+
+}
